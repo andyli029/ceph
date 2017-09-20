@@ -197,7 +197,7 @@ struct SignalHandler : public Thread {
     assert(r == 0);
 
     // create thread
-    create("sginal_handler");
+    create("signal_handler");
   }
 
   ~SignalHandler() {
